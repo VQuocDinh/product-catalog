@@ -1,0 +1,12 @@
+export { default as AwardIcon } from './award.svg';
+export { default as Phone } from './phone.svg';
+export { default as Download } from './download.svg';
+export { default as Logo } from './logo.svg';
+export { default as Camera } from './camera.svg';
+export { default as FlagVN } from './flag-vn.svg';
+export { default as Cart } from './cart.svg';
+export { default as User } from './user.svg';
+export { default as Asyc } from './asyc.svg';
+export { default as Truck } from './truck.svg';
+export { default as Hand } from './hand.svg';
+export { default as Clock } from './clock.svg';

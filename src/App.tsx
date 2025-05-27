@@ -1,11 +1,13 @@
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Header from './components/Header';
-import ProductList from './pages/ProductList';
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Header from "./components/Header";
+import ProductList from "./pages/ProductList";
+import TopBanner from "./components/TopBanner";
 
 function App() {
   return (
     <Router>
-      <div className="min-h-screen flex flex-col">
+      <TopBanner />
+      <div className="bg-white min-h-screen w-full flex flex-col ">
         <Header />
         <main className="flex-grow">
           <Routes>
