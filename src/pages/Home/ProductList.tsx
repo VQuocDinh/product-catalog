@@ -1,8 +1,8 @@
 import { useState } from 'react';
-import type { Product } from '../utils/fakeData';
-import ProductCard from '../components/ProductCard';
-import PromoBanner from '../components/PromoBanner';
-import Button from '../components/ButtonCustom';
+import type { Product } from '../../utils/fakeData';
+import ProductCard from './ProductCard';
+import PromoBanner from './PromoBanner';
+import Button from '../../components/ButtonCustom';
 
 const ProductList = () => {
   const [products] = useState<Product[]>([

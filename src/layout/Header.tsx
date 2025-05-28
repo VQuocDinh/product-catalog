@@ -5,7 +5,7 @@ import {
   FiChevronDown,
 } from "react-icons/fi";
 import { Logo, FlagVN, Cart, User, Clock, Hand, Truck, Asyc } from "../assets/icons";
-import Button from "./ButtonCustom";
+import Button from "../components/ButtonCustom";
 
 const navLinks = [
   { to: "#", label: "VÉ CHÚNG TÔI" },

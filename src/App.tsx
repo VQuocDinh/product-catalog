@@ -1,8 +1,8 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import Header from "./components/Header";
-import ProductList from "./pages/ProductList";
-import TopBanner from "./components/TopBanner";
-import Footer from "./components/Footer";
+import Header from "./layout/Header";
+import ProductList from "./pages/Home/ProductList";
+import TopBanner from "./layout/TopBanner";
+import Footer from "./layout/Footer";
 
 function App() {
   return (

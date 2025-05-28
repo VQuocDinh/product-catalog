@@ -1,4 +1,4 @@
-import type { Product } from '../utils/fakeData';
+import type { Product } from '../../utils/fakeData';
 
 interface ProductCardProps {
   product: Product;
