@@ -10,7 +10,7 @@ const MainLayout = () => {
       <TopBanner />
       <div className="bg-white min-h-screen w-full flex flex-col">
         <Header />
-        <main className="flex-1">
+        <main className="flex-1 bg-gray-100">
           <Outlet />
         </main>
         <BottomLabel />
