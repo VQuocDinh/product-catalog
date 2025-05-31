@@ -93,16 +93,16 @@ export default tseslint.config({
 })
 ```
 Install dependencies:
-npm install
+```npm install```
 
 Start development server:
-npm run dev
+```npm run dev```
 
 Build for production:
-npm run build
+```npm run build```
 
 Preview production build:
-npm run preview
+```npm run preview```
 
 ## 🧪 To Do / Future Improvements
 - Add product filtering and sorting
