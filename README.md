@@ -104,31 +104,18 @@ npm run build
 Preview production build:
 npm run preview
 
-📁 Project Structure
-product-catalog/
-├── public/              # Static assets
-├── src/
-│   ├── assets/          # Image & static resources
-│   ├── components/      # Reusable React components
-│   ├── pages/           # Page-level components
-│   ├── App.tsx          # Root component
-│   └── main.tsx         # Entry point
-├── tailwind.config.ts   # Tailwind configuration
-├── vite.config.ts       # Vite configuration
-└── README.md
+## 🧪 To Do / Future Improvements
+- Add product filtering and sorting
 
-🧪 To Do / Future Improvements
- Add product filtering and sorting
+- Integrate with real product API
 
- Integrate with real product API
+- Add product detail page
 
- Add product detail page
+- Add unit tests with Jest / React Testing Library
 
- Add unit tests with Jest / React Testing Library
+- Deploy on Vercel or Netlify
 
- Deploy on Vercel or Netlify
-
-👨‍💻 Author
+## 👨‍💻 Author
 VQuocDinh
 📫 GitHub
 
