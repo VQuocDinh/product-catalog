@@ -1,11 +1,11 @@
 import { memo } from "react";
 import { Fire } from "../../assets/icons";
-import type { Product } from "../../utils/fakeData";
+import type { Products } from "../../utils/fakeData";
 import { formatPrice } from "../../utils/product";
 
 interface ProductCardProps {
-  product: Product;
-  onAddToCart?: (product: Product) => void;
+  product: Products;
+  onAddToCart?: (product: Products) => void;
   className?: string;
 }
 

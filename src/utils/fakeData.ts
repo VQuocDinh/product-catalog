@@ -4,7 +4,7 @@ import {
   Product3,
   Product4,
   Product5,
-} from "../assets/image";
+} from "../assets/images";
 
 export interface Products {
   id: number;

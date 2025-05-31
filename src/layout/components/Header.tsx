@@ -9,12 +9,14 @@ import {
   Hand,
   Truck,
   Asyc,
-} from "../assets/icons";
-import SearchBar from "../components/SearchBar";
+} from "../../assets/icons";
 import { AiOutlineMenu } from "react-icons/ai";
-import Button from "../components/ButtonCustom";
-import React from "react";
-import Category from "../pages/Home/Category";
+import Button from "../../components/common/ButtonCustom";
+import React, { useState } from "react";
+import Category from "../../pages/Home/Category";
+import SearchBar from "../../components/common/SearchBar";
+import CartPopup from "../../components/product/CartPopup";
+import { Product1 } from "../../assets/images";
 
 interface NavLink {
   to: string;
@@ -42,6 +44,19 @@ const supportLinks: SupportLink[] = [
 
 const Header = () => {
   const [isOpenCategory, setIsOpenCategory] = React.useState(false);
+  const [isCartOpen, setIsCartOpen] = useState(false);
+
+  // Mock data - replace with real data later
+  const cartItems = [
+    {
+      id: "1",
+      name: "Lọc gió động cơ Air Filter - Chevrolet C...",
+      image: Product1,
+      price: 299000,
+      quantity: 1,
+    },
+    // Add more items...
+  ];
 
   return (
     <header className="bg-white p-4 shadow-md relative">
@@ -63,18 +78,26 @@ const Header = () => {
             <span className="ml-2">VI</span>
           </button>
 
-          <button
-            className="flex items-center cursor-pointer focus:outline-none"
-            type="button"
+          <div
+            className="relative"
+            onMouseEnter={() => setIsCartOpen(true)}
+            onMouseLeave={() => setIsCartOpen(false)}
           >
-            <span className="relative">
-              <img src={Cart} alt="cart" />
-              <span className="absolute -top-2 -right-2 bg-red-500 text-white rounded-full w-5 h-5 flex items-center justify-center text-xs">
-                12
+            <button
+              className="flex items-center cursor-pointer focus:outline-none hover:text-blue-600 transition-colors"
+              type="button"
+            >
+              <span className="relative">
+                <img src={Cart} alt="cart" />
+                <span className="absolute -top-2 -right-2 bg-red-500 text-white rounded-full w-5 h-5 flex items-center justify-center text-xs">
+                  {cartItems.length}
+                </span>
               </span>
-            </span>
-            <span className="ml-2">Giỏ hàng</span>
-          </button>
+              <span className="ml-2">Giỏ hàng</span>
+            </button>
+
+            {isCartOpen && <CartPopup items={cartItems} />}
+          </div>
 
           <button
             className="flex items-center cursor-pointer focus:outline-none"

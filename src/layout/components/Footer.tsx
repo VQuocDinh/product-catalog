@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { FiGlobe } from "react-icons/fi";
-import { NotitedLogo } from "../assets/image";
+import { NotitedLogo } from "../../assets/images";
 
 const Footer = () => {
   return (

@@ -1,4 +1,4 @@
-import { Banner } from "../../assets/image";
+import { Banner } from "../../assets/images";
 import { Navigation, Autoplay } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -6,7 +6,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/autoplay";
-import ProductCard from "./ProductCard";
+import ProductCard from "../../components/product/ProductCard";
 import { productsSale } from "../../utils/fakeData";
 
 const PromoBanner = () => {

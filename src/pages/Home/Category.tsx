@@ -4,7 +4,7 @@ import { categories } from "../../constants/category";
 import type { Category as CategoryType } from "../../constants/category";
 import { FiChevronRight } from "react-icons/fi";
 import { bestSaler } from "../../utils/fakeData";
-import ProductCard from "./ProductCard";
+import ProductCard from "../../components/product/ProductCard";
 
 const Category: FC = () => {
   const [activeCategory, setActiveCategory] = useState<CategoryType | null>(

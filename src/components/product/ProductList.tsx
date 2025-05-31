@@ -2,10 +2,10 @@ import type { FC } from "react";
 import { fakeProducts } from "../../utils/fakeData";
 import { useProductFilters } from "../../hooks/useProductFilters";
 import ProductCard from "./ProductCard";
-import PromoBanner from "./PromoBanner";
-import Breadcrumb from "../../components/Breadcrumb";
-import Services from "./Services";
-import { FilterSidebar } from "./FilterSidebar";
+import PromoBanner from "../../pages/Home/PromoBanner";
+import Breadcrumb from "../common/Breadcrumb";
+import Services from "../../pages/Home/Services";
+import { FilterSidebar } from "../../pages/Home/FilterSidebar";
 import { sortOptions, type SortOption } from '../../constants/product';
 
 const breadcrumbItems = [

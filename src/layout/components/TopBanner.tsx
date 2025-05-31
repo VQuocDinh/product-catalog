@@ -1,4 +1,4 @@
-import { AwardIcon, Phone, Download } from "../assets/icons";
+import { AwardIcon, Phone, Download } from "../../assets/icons";
 
 const TopBanner = () => {
   return (

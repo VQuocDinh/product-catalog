@@ -1,4 +1,4 @@
-import { OilFilter, OxiFilter } from "../assets/image";
+import { OilFilter, OxiFilter } from "../assets/images";
 
 export interface SubCategory {
   id: string;

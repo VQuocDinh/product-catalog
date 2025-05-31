@@ -1,4 +1,4 @@
-import { ArrowRight, Location } from "../assets/icons";
+import { ArrowRight, Location } from "../../assets/icons";
 
 const BottomLabel = () => {
   return (
