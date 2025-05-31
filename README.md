@@ -92,5 +92,45 @@ export default tseslint.config({
   },
 })
 ```
+Install dependencies:
+npm install
+
+Start development server:
+npm run dev
+
+Build for production:
+npm run build
+
+Preview production build:
+npm run preview
+
+📁 Project Structure
+product-catalog/
+├── public/              # Static assets
+├── src/
+│   ├── assets/          # Image & static resources
+│   ├── components/      # Reusable React components
+│   ├── pages/           # Page-level components
+│   ├── App.tsx          # Root component
+│   └── main.tsx         # Entry point
+├── tailwind.config.ts   # Tailwind configuration
+├── vite.config.ts       # Vite configuration
+└── README.md
+
+🧪 To Do / Future Improvements
+ Add product filtering and sorting
+
+ Integrate with real product API
+
+ Add product detail page
+
+ Add unit tests with Jest / React Testing Library
+
+ Deploy on Vercel or Netlify
+
+👨‍💻 Author
+VQuocDinh
+📫 GitHub
+
 
 
