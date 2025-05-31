@@ -6,6 +6,11 @@ A modern and responsive product catalog web application built with **React**, **
 
 ![Product Catalog Screenshot](./public/screenshot.png)
 
+![image](https://github.com/user-attachments/assets/03994c35-7daf-4d0e-8077-8c11124df256)
+
+![image](https://github.com/user-attachments/assets/3ea60d86-1d57-4f77-b247-d950aeac3d10)
+
+
 ---
 
 ## 🚀 Features
