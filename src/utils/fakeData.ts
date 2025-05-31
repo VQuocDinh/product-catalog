@@ -6,7 +6,7 @@ import {
   Product5,
 } from "../assets/image";
 
-export interface Product {
+export interface Products {
   id: number;
   name: string;
   price: number;
@@ -14,7 +14,7 @@ export interface Product {
   category: string;
 }
 
-export const fakeProducts: Product[] = [
+export const fakeProducts: Products[] = [
   {
     id: 1,
     name: "Lọc dầu Air Filter - Chevrolet Colorado, Tr...",
@@ -87,7 +87,46 @@ export const fakeProducts: Product[] = [
   },
 ];
 
-export const productsSale: Product[] = [
+export const productsSale: Products[] = [
+  {
+    id: 1,
+    name: "Lọc dầu Air Filter - Chevrolet Colorado, Tr...",
+    price: 299000,
+    image: Product1,
+    category: "Bộ lọc",
+  },
+  {
+    id: 2,
+    name: "Lọc dầu Air Filter - Chevrolet Colorado, Tr...",
+    price: 299000,
+    image: Product2,
+    category: "Bộ lọc",
+  },
+  {
+    id: 3,
+    name: "Lọc dầu Air Filter - Chevrolet Colorado, Tr...",
+    price: 299000,
+    image: Product3,
+    category: "Bộ lọc",
+  },
+  {
+    id: 4,
+    name: "Lọc dầu Air Filter - Chevrolet Colorado, Tr...",
+    price: 299000,
+    image: Product4,
+    category: "Bộ lọc",
+  },
+  {
+    id: 5,
+    name: "Lọc dầu Air Filter - Chevrolet Colorado, Tr...",
+    price: 299000,
+    image: Product5,
+    category: "Bộ lọc",
+  },
+];
+
+
+export const bestSaler: Products[] = [
   {
     id: 1,
     name: "Lọc dầu Air Filter - Chevrolet Colorado, Tr...",

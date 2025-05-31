@@ -103,12 +103,7 @@ const Header = () => {
               <FiChevronDown size={16} />
             </Button>
 
-            {isOpenCategory && (
-              <>
-                <div className="fixed inset-0 bg-black/20 z-40" />
-                <Category />
-              </>
-            )}
+            {isOpenCategory && <Category />}
           </div>
 
           <div className="flex space-x-4 inline-flex">

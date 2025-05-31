@@ -1,8 +1,11 @@
 import { Banner } from "../../assets/image";
-import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Autoplay } from "swiper/modules";
+import { Swiper, SwiperSlide } from "swiper/react";
+
+// Import Swiper styles
 import "swiper/css";
 import "swiper/css/navigation";
+import "swiper/css/autoplay";
 import ProductCard from "./ProductCard";
 import { productsSale } from "../../utils/fakeData";
 

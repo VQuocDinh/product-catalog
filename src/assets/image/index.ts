@@ -5,3 +5,5 @@ export {default as Product3} from './pr3.png';
 export {default as Product4} from './pr4.png';
 export {default as Product5} from './pr5.png';
 export {default as NotitedLogo} from './notied-logo.png';
+export {default as OilFilter} from './oil-filter.png';
+export {default as OxiFilter} from './oxi-filter.png';

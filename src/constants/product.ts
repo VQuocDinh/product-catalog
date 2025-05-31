@@ -1,4 +1,81 @@
-import type { Brand, Category, PriceRange } from "../types";
+export interface Category {
+  id: string;
+  name: string;
+  count?: number; // Optional count for the number of products in this category
+}
+
+export interface PriceRange {
+  id: string;
+  label: string;
+  min?: number; // Optional minimum price
+  max?: number; // Optional maximum price
+}
+
+export interface Brand {
+  id: string;
+  name: string;
+  count?: number; // Optional count for the number of products from this brand
+}
+
+export interface Year {
+  year: string;
+  count: number; // Number of products available for this year
+}
+
+export interface Manufacturer {
+  name: string;
+  count?: number; // Optional count for the number of products from this manufacturer
+}
+
+export interface FilterItems {
+  id: string;
+  name: string;
+}
+
+export interface Product {
+  id: string | number;
+  name: string;
+  price: number;
+  image: string;
+  category: string;
+}
+
+export interface FilterSection {
+  category: boolean;
+  price: boolean;
+  brand: boolean;
+  year: boolean;
+  manufacturer: boolean;
+}
+
+export interface FilterState {
+  categories: string[];
+  priceRanges: string[];
+  brands: string[];
+  years: string[];
+  manufacturers: string[];
+}
+
+export type SortOption = 'relevant' | 'bestseller' | 'newest' | 'price-asc' | 'price-desc';
+
+export const sortOptions = [
+  { value: 'relevant', label: 'Liên quan' },
+  { value: 'bestseller', label: 'Bán chạy' },
+  { value: 'newest', label: 'Mới nhất' }, 
+  { value: 'popular', label: 'Nổi bật' },
+  { value: 'price-asc', label: 'Giá: Thấp → Cao' },
+  { value: 'price-desc', label: 'Giá: Cao → Thấp' },
+] as const;
+
+export const FILTER_ITEMS: FilterItems[] = [
+  {id: "categories", name: "Danh mục sản phẩm"},
+  {id: "price", name: "Khoảng giá"},
+  {id: "brands", name: "Thương hiệu"},
+  {id: "years", name: "Năm sản xuất"},
+  {id: "manufacturers", name: "Xuất xứ"},
+
+]
+
 
 export const CATEGORIES: Category[] = [
   { id: "filter", name: "Lọc gió động cơ - Air Filter", count: 24 },
