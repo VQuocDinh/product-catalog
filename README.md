@@ -1,5 +1,45 @@
 # React + TypeScript + Vite
 
+# 🛍️ Product Catalog
+
+A modern and responsive product catalog web application built with **React**, **TypeScript**, **Vite**, and **Tailwind CSS**. This project demonstrates clean UI, component structure, and a scalable frontend architecture for e-commerce platforms.
+
+![Product Catalog Screenshot](./public/screenshot.png)
+
+---
+
+## 🚀 Features
+
+- ⚡ **Fast & lightweight** setup using Vite
+- 🎨 **Responsive UI** built with Tailwind CSS
+- 🔎 Product browsing with clean layout and filters
+- ✅ Built with **TypeScript** for type safety
+- ♻️ Reusable and modular React components
+- 🧱 Scalable folder structure for future growth
+
+---
+
+## 🏗️ Tech Stack
+
+| Technology     | Purpose                          |
+|----------------|----------------------------------|
+| React          | UI development                   |
+| TypeScript     | Type checking and developer tools|
+| Vite           | Frontend build tool              |
+| Tailwind CSS   | Styling                          |
+| ESLint + Prettier | Code linting and formatting    |
+
+---
+
+## 📦 Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/VQuocDinh/product-catalog.git
+cd product-catalog
+
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
