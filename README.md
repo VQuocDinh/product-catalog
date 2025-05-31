@@ -120,7 +120,7 @@ VQuocDinh
 📫 GitHub
 
 ## Live demo
-``` https://product-catalog-m5a56u4ii-vo-quoc-dinhs-projects.vercel.app/ ```
+[https://product-catalog-m5a56u4ii-vo-quoc-dinhs-projects.vercel.app/]
 
 
 
