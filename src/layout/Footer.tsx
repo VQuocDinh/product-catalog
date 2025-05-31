@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { FiGlobe } from "react-icons/fi";
+import { NotitedLogo } from "../assets/image";
 
 const Footer = () => {
   return (
@@ -25,7 +26,7 @@ const Footer = () => {
               <strong>Opening hour:</strong> 09:00 – 22:00 from Mon – Fri
             </p>
             <img
-              src="https://via.placeholder.com/150x50?text=ĐÃ+THÔNG+BÁO+BỘ+CÔNG+THƯƠNG"
+              src={NotitedLogo}
               alt="Đã thông báo Bộ Công Thương"
               className="w-32"
             />

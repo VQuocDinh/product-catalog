@@ -1,3 +1,11 @@
+import {
+  Product1,
+  Product2,
+  Product3,
+  Product4,
+  Product5,
+} from "../assets/image";
+
 export interface Product {
   id: number;
   name: string;
@@ -7,7 +15,112 @@ export interface Product {
 }
 
 export const fakeProducts: Product[] = [
-  { id: 1, name: "Bộ lọc dầu A", price: 250000, image: "/images/filter1.jpg", category: "Bộ lọc" },
-  { id: 2, name: "Bộ lọc dầu B", price: 300000, image: "/images/filter2.jpg", category: "Bộ lọc" },
-  { id: 3, name: "Dầu động cơ C", price: 400000, image: "/images/oil1.jpg", category: "Dầu" },
+  {
+    id: 1,
+    name: "Lọc dầu Air Filter - Chevrolet Colorado, Tr...",
+    price: 299000,
+    image: Product1,
+    category: "Bộ lọc",
+  },
+  {
+    id: 2,
+    name: "Lọc dầu Air Filter - Chevrolet Colorado, Tr...",
+    price: 299000,
+    image: Product2,
+    category: "Bộ lọc",
+  },
+  {
+    id: 3,
+    name: "Lọc dầu Air Filter - Chevrolet Colorado, Tr...",
+    price: 299000,
+    image: Product3,
+    category: "Bộ lọc",
+  },
+  {
+    id: 4,
+    name: "Lọc dầu Air Filter - Chevrolet Colorado, Tr...",
+    price: 299000,
+    image: Product4,
+    category: "Bộ lọc",
+  },
+  {
+    id: 5,
+    name: "Lọc dầu Air Filter - Chevrolet Colorado, Tr...",
+    price: 299000,
+    image: Product5,
+    category: "Bộ lọc",
+  },
+  {
+    id: 6,
+    name: "Lọc dầu Air Filter - Chevrolet Colorado, Tr...",
+    price: 299000,
+    image: Product1,
+    category: "Bộ lọc",
+  },
+  {
+    id: 7,
+    name: "Lọc dầu Air Filter - Chevrolet Colorado, Tr...",
+    price: 299000,
+    image: Product2,
+    category: "Bộ lọc",
+  },
+  {
+    id: 8,
+    name: "Lọc dầu Air Filter - Chevrolet Colorado, Tr...",
+    price: 299000,
+    image: Product3,
+    category: "Bộ lọc",
+  },
+  {
+    id: 9,
+    name: "Lọc dầu Air Filter - Chevrolet Colorado, Tr...",
+    price: 299000,
+    image: Product4,
+    category: "Bộ lọc",
+  },
+  {
+    id: 10,
+    name: "Lọc dầu Air Filter - Chevrolet Colorado, Tr...",
+    price: 299000,
+    image: Product5,
+    category: "Bộ lọc",
+  },
+];
+
+export const productsSale: Product[] = [
+  {
+    id: 1,
+    name: "Lọc dầu Air Filter - Chevrolet Colorado, Tr...",
+    price: 299000,
+    image: Product1,
+    category: "Bộ lọc",
+  },
+  {
+    id: 2,
+    name: "Lọc dầu Air Filter - Chevrolet Colorado, Tr...",
+    price: 299000,
+    image: Product2,
+    category: "Bộ lọc",
+  },
+  {
+    id: 3,
+    name: "Lọc dầu Air Filter - Chevrolet Colorado, Tr...",
+    price: 299000,
+    image: Product3,
+    category: "Bộ lọc",
+  },
+  {
+    id: 4,
+    name: "Lọc dầu Air Filter - Chevrolet Colorado, Tr...",
+    price: 299000,
+    image: Product4,
+    category: "Bộ lọc",
+  },
+  {
+    id: 5,
+    name: "Lọc dầu Air Filter - Chevrolet Colorado, Tr...",
+    price: 299000,
+    image: Product5,
+    category: "Bộ lọc",
+  },
 ];

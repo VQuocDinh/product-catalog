@@ -12,7 +12,7 @@ interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
 const Button: React.FC<ButtonProps> = ({
     variant = 'primary',
     size = 'medium',
-    children,
+    children, 
     onClick,
     disabled = false,
     className = '',
@@ -23,11 +23,11 @@ const Button: React.FC<ButtonProps> = ({
             case 'primary':
                 return 'bg-blue-600 text-white hover:bg-blue-700 active:bg-blue-800';
             case 'secondary':
-                return 'bg-gray-200 text-gray-800 hover:bg-gray-300 active:bg-gray-400';
+                return 'bg-white text-blue-800 hover:bg-blue-300 active:bg-blue-400';
             case 'outline':
                 return 'border border-blue-600 text-blue-600 hover:bg-blue-50 hover:border-blue-700 active:bg-blue-100';
             default:
-                return 'bg-blue-600 text-white hover:bg-blue-700 active:bg-blue-800';
+                return 'bg-blue-600 hover:bg-blue-700 active:bg-blue-800';
         }
     };
 

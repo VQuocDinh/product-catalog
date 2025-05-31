@@ -10,3 +10,12 @@ export { default as Asyc } from './asyc.svg';
 export { default as Truck } from './truck.svg';
 export { default as Hand } from './hand.svg';
 export { default as Clock } from './clock.svg';
+export { default as Location } from './location.svg';
+export { default as ArrowRight } from './arrow-right.svg';
+export { default as FreeShip } from './free-ship.svg';
+export { default as Headphone } from './headphone.svg';
+export { default as TruckBlue } from './truck-blue.svg';
+export { default as Block } from './block.svg';
+export { default as Filter } from './filter.svg';
+export { default as Fire } from './fire.svg';
+
