@@ -92,5 +92,36 @@ export default tseslint.config({
   },
 })
 ```
+Install dependencies:
+```npm install```
 
-![alt text](image.png)
+Start development server:
+```npm run dev```
+
+Build for production:
+```npm run build```
+
+Preview production build:
+```npm run preview```
+
+## 🧪 To Do / Future Improvements
+- Add product filtering and sorting
+
+- Integrate with real product API
+
+- Add product detail page
+
+- Add unit tests with Jest / React Testing Library
+
+- Deploy on Vercel or Netlify
+
+## 👨‍💻 Author
+VQuocDinh
+📫 GitHub
+
+## Live demo
+[https://product-catalog-m5a56u4ii-vo-quoc-dinhs-projects.vercel.app/]
+
+
+
+
