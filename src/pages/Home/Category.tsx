@@ -8,13 +8,12 @@ import ProductCard from "../../components/product/ProductCard";
 
 const Category: FC = () => {
   const [activeCategory, setActiveCategory] = useState<CategoryType | null>(
-    null
+    categories[0] || null
   );
 
   return (
     <div className="absolute top-full left-0 bg-gray-100 shadow-lg rounded-lg z-50 w-[1200px] min-h-[400px] p-4">
       <div className="flex">
-        {/* Category list */}
         <div className="w-1/4 border-r">
           {categories.map((category) => (
             <div

@@ -55,7 +55,6 @@ const Header = () => {
       price: 299000,
       quantity: 1,
     },
-    // Add more items...
   ];
 
   return (
@@ -109,7 +108,7 @@ const Header = () => {
         </div>
       </div>
 
-      <div className="relative container mx-auto flex justify-between items-center mt-2 text-sm px-4 md:px-8 lg:px-16">
+      <div className="relative container mx-auto flex justify-between items-center mt-6 text-sm px-4 md:px-8 lg:px-16">
         <div className="flex items-center space-x-4">
           <div
             className="relative"
@@ -134,7 +133,7 @@ const Header = () => {
               <Link
                 key={link.label}
                 to={link.to}
-                className="mx-2 text-gray-700 hover:text-blue-600"
+                className="mx-2 text-gray-700 hover:text-blue-600 font-bold"
               >
                 {link.label}
               </Link>
@@ -147,7 +146,7 @@ const Header = () => {
             <Link
               key={item.label}
               to="#"
-              className="flex items-center text-gray-700 hover:text-blue-600"
+              className="flex items-center text-gray-700 hover:text-blue-600 font-bold"
             >
               <span className="mr-1">
                 <img src={item.icon} alt="" />
